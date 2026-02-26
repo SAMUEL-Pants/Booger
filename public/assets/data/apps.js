@@ -11,24 +11,10 @@ var apps = [
        image: 'assets/images/helios.png',
        noProxy: true
     },
-      {
-       id: 'insta',
-       title: 'insta',
-       url: 'https://www.instagram.com',
-       image: 'https://i.ibb.co/4w97MssF/spenflix-logo.png',
-       noProxy: true
-    },
     {
        id: 'spencerflix',
        title: 'Spen-Flix',
        url: 'https://frogiesarcade.win/embed.html#https://watch.spencerdevs.xyz/',
-       image: 'https://i.ibb.co/4w97MssF/spenflix-logo.png',
-       noProxy: true
-    },
-    {
-       id: 'snap',
-       title: 'snap',
-       url: 'https://www.snapchat.com',
        image: 'https://i.ibb.co/4w97MssF/spenflix-logo.png',
        noProxy: true
     },
@@ -77,6 +63,12 @@ var apps = [
       'image': 'https://sf-tb-sg.ibytedtos.com/obj/eden-sg/uhtyvueh7nulogpoguhm/tiktok-icon2.png'
     },
     {
+      "id": "snapchat",
+      "title": "snapchat",
+      "url": "https://snapchat.com",
+      'image': 'https://sf-tb-sg.ibytedtos.com/obj/eden-sg/uhtyvueh7nulogpoguhm/tiktok-icon2.png'
+    },
+    {
       "id": "reddit",
       "title": "Reddit",
       "url": "https://reddit.com",
@@ -110,6 +102,7 @@ var apps = [
   
   console.log("Loaded " + apps.length + " apps")
   if (customapps) console.log("Loaded " + customapps.length + " custom apps")
+
 
 
 
