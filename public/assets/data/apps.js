@@ -71,6 +71,12 @@ var apps = [
       'image': 'https://sf-tb-sg.ibytedtos.com/obj/eden-sg/uhtyvueh7nulogpoguhm/tiktok-icon2.png'
     },
     {
+      "id": "insta",
+      "title": "insta",
+      "url": "https://instagram.com",
+      'image': 'https://sf-tb-sg.ibytedtos.com/obj/eden-sg/uhtyvueh7nulogpoguhm/tiktok-icon2.png'
+    },
+    {
       "id": "reddit",
       "title": "Reddit",
       "url": "https://reddit.com",
@@ -104,6 +110,7 @@ var apps = [
   
   console.log("Loaded " + apps.length + " apps")
   if (customapps) console.log("Loaded " + customapps.length + " custom apps")
+
 
 
 
