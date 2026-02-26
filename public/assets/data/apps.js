@@ -11,6 +11,13 @@ var apps = [
        image: 'assets/images/helios.png',
        noProxy: true
     },
+      {
+       id: 'insta',
+       title: 'insta',
+       url: 'https://www.instagram.com',
+       image: 'https://i.ibb.co/4w97MssF/spenflix-logo.png',
+       noProxy: true
+    },
     {
        id: 'spencerflix',
        title: 'Spen-Flix',
@@ -97,6 +104,7 @@ var apps = [
   
   console.log("Loaded " + apps.length + " apps")
   if (customapps) console.log("Loaded " + customapps.length + " custom apps")
+
 
 
 
