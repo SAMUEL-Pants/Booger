@@ -19,6 +19,13 @@ var apps = [
        noProxy: true
     },
     {
+       id: 'snap',
+       title: 'snap',
+       url: 'https://snapchat.com',
+       image: 'https://i.ibb.co/4w97MssF/spenflix-logo.png',
+       noProxy: true
+    },
+    {
        id: 'soundboard',
        title: 'Soundboard',
        html: 'assets/games/Soundboard.html',
@@ -90,5 +97,6 @@ var apps = [
   
   console.log("Loaded " + apps.length + " apps")
   if (customapps) console.log("Loaded " + customapps.length + " custom apps")
+
 
 
