@@ -21,7 +21,7 @@ var apps = [
     {
        id: 'snap',
        title: 'snap',
-       url: 'https://snapchat.com',
+       url: 'https://www.snapchat.com',
        image: 'https://i.ibb.co/4w97MssF/spenflix-logo.png',
        noProxy: true
     },
@@ -97,6 +97,7 @@ var apps = [
   
   console.log("Loaded " + apps.length + " apps")
   if (customapps) console.log("Loaded " + customapps.length + " custom apps")
+
 
 
 
